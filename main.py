@@ -14,3 +14,6 @@ async def health_check():
 @app.get("/sexy")
 async def health_check():
     return {"status": "healthy"}
+@app.get("/sessxy")
+async def health_check():
+    return {"status": "healthy"}
